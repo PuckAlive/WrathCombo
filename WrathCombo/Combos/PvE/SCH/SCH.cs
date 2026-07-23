@@ -276,7 +276,7 @@ internal partial class SCH : Healer
             var replacedActions = (int)SCH_ST_DPS_Adv_Actions switch
             {
                 1 => BioList.Keys.ToArray(),
-                2 => [Broil2],
+                2 => [Ruin2],
                 _ => BroilList.ToArray(),
             };
 
